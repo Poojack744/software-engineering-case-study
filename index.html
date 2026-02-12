@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE Case Study Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Engineering Lab: Counter</h1>
+        <p>A simple tool to demonstrate the SDLC process.</p>
+        
+        <div class="counter-display">
+            <span id="count-value">0</span>
+        </div>
+
+        <div class="buttons">
+            <button class="btn decrease" onclick="updateCount(-1)">Decrease</button>
+            <button class="btn reset" onclick="resetCount()">Reset</button>
+            <button class="btn increase" onclick="updateCount(1)">Increase</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
